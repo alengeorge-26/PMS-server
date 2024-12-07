@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend API for Project Management System for CSE CET",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Govindvr/project-manager-cet.git"
+  },
+  "author": "Govind V R, Gopika P Pavithran, Alen George, Kavya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Govindvr/project-manager-cet/issues"
+  },
+  "homepage": "https://github.com/Govindvr/project-manager-cet#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1381.0",
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.37.0",
+    "concurrently": "^8.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0"
+  }
+}
